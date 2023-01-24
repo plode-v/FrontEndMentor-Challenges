@@ -13,11 +13,11 @@ body {
     left: 50%;
     top: 50%;
     margin: -16.25rem 0 0 -10.3125rem;
-    border-radius: 3%;
+    border-radius: 4%;
 }
 
 img {
-    width: 300px;
+    width: 18.75rem;
     border-radius: 3%;
     margin-top: 1rem;
 }
@@ -32,13 +32,24 @@ img {
 .p {
     font-size: 1rem;
     color: hsl(220, 15%, 55%);
-    padding: 0 2rem;
+    padding: 0.5rem 2rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 375px) {
     .container {
         width: 26rem;
-        height: 35rem;
-        margin: -17.5rem -13rem;
+        height: 40rem;
+        margin: -20rem -13rem;
+    }
+    img {
+        width: 23.636rem;
+    }
+    .heading {
+        font-size: 1.75rem;
+    }
+    .p {
+        font-size: 1.15rem;
+        padding: 0 3rem;
+        line-height: 1.5;
     }
 }
